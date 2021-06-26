@@ -1,6 +1,6 @@
 <template>
   <SwitchDemo />
-  <div class="bg-red-200">asdsad vite</div>
+  <div class="bg-red-400">asdsad vite</div>
   <elementDemo/>
 </template>
 
@@ -12,7 +12,4 @@ import elementDemo from "./components/elementDemo.vue";
 </script>
 
 <style>
-.elg{
-  background-color: #eee !important;
-}
 </style>

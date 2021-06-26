@@ -9,8 +9,9 @@
       > 
         <span
           :class="enabled ? 'translate-x-6' : 'translate-x-1'"
-          class="inline-block w-8 h-8 transition-transform transform bg-white rounded-full"
+          class="inline-block w-4 h-4 transition-transform transform bg-white rounded-full span_wrap"
         />
+        <p>123</p>
       </Switch>
     </div>
   </SwitchGroup>
@@ -30,3 +31,9 @@ export default {
   },
 };
 </script>
+
+<style>
+  .span_wrap{
+    background-color: red;
+  }    
+</style>
