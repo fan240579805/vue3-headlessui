@@ -1,7 +1,7 @@
 <template>
   <SwitchGroup>
     <div class="flex items-center">
-      <SwitchLabel class="mr-4">Enable notifications</SwitchLabel>
+      <SwitchLabel class="mr-4">点我</SwitchLabel>
       <Switch
         v-model="enabled"
         :class="enabled ? 'bg-blue-600' : 'bg-gray-200'"
@@ -9,9 +9,8 @@
       > 
         <span
           :class="enabled ? 'translate-x-6' : 'translate-x-1'"
-          class="inline-block w-4 h-4 transition-transform transform bg-white rounded-full span_wrap"
+          class="span_wrap inline-block w-4 h-4 transition-transform transform bg-white rounded-full span_wrap"
         />
-        <p>123</p>
       </Switch>
     </div>
   </SwitchGroup>
