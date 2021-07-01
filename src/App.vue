@@ -22,18 +22,20 @@ import asd from "./components/asd.vue";
 </script>
 
 <style scoped>
-h3{
+h3 {
   text-align: center;
   color: #fff;
 }
-.wrap{
-  width: 70vw;
-  margin: 200px auto;
+.wrap {
+  width: 90vw;
+  margin: 80px auto;
   display: flex;
   justify-content: space-between;
 }
-.headless_Wrap,.ele_Wrap{
-  border:1px solid #333;
+.headless_Wrap,
+.ele_Wrap {
+  width: 42vw;
+  border: 1px solid #333;
   padding: 30px;
 }
 </style>
