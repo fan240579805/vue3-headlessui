@@ -1,4 +1,10 @@
 <template>
+<div class="flex flex-row">
+  <div class="w-20 h-20 m-10 bg-red-200 hover: bg-blue-300">1</div>
+  <div class="w-20 h-20 m-10 bg-red-200">1</div>
+  <div class="w-20 h-20 m-10 bg-red-200">1</div>
+  <div class="w-20 h-20 m-10 bg-red-200">1</div>
+</div>
   <h3 class="bg-red-400">vite app</h3>
   <div class="wrap">
     <div class="ele_Wrap">
@@ -16,13 +22,15 @@
 <script setup>
 import SwitchDemo from "./components/SwitchDemo.vue";
 import elementDemo from "./components/elementDemo.vue";
-import asd from "./components/asd.vue";
+import asd from "./components/menu.vue";
+
+
 // This starter template is using Vue 3 experimental <script setup> SFCs
 // Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
-</script>
+</script> 
 
 <style scoped>
-h3 {
+h3 { 
   text-align: center;
   color: #fff;
 }

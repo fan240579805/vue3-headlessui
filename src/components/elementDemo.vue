@@ -5,7 +5,6 @@
       active-text="按月付费"
       inactive-text="按年付费"
     >
-      <!-- 渲染不进去 -->
       <p>123</p>
     </el-switch>
   </div>
